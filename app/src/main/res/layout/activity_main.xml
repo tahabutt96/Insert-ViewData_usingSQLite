@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="22dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\nQuiz # 03\nBy\nArsalan-60847\n"
+        android:textSize="32dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        android:gravity="center_horizontal">
+    </TextView>
+
+    <EditText
+        android:id="@+id/edttxt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:padding="9dp" />
+    <EditText
+        android:id="@+id/edttxt_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entar Age"
+        android:padding="9dp" />
+    <EditText
+        android:id="@+id/edttxt_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Color"
+        android:padding="9dp" />
+    <EditText
+        android:id="@+id/edttxt_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entar Gender"
+        android:padding="9dp" />
+    <Button
+        android:id="@+id/btn_savedata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="#00ACC1"
+        android:padding="9dp"
+        android:text="Save Data" />
+    <Button
+        android:id="@+id/btn_showalldata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="#00ACC1"
+        android:padding="9dp"
+        android:text="Show all data" />
+
+</LinearLayout>
